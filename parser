@@ -1,0 +1,35 @@
+def direction_parser(direction_str):
+    pass
+
+
+def matrix_file_to_2d_array(file_path):
+    pass
+
+
+def matrix_2d_array_to_list(matrix_array, direction_dict):
+    """
+    transforms a 2D array to a list of all the relevant lines to check
+    :param matrix_array: 2D array formatted matrix.
+    :param direction_dict: dictionary of directions with boolean value
+           Example: {'u': True, 'd':False Etc.. }
+    :return: list of all possible checking directions.
+    """
+    ret_list =[]
+    diction = {'u':True, 'd':False}
+    for direction in diction:
+        if diction[direction]:
+            ret_list.append("""משהו שמייצר רשימה רלוונטית לכיוון""")
+            # option 1: one function with 8 cases return parameter for scanning the array
+            # option 2: two function for scanning (for every |degree|
+    pass
+
+
+def words_file_to_list(file_path):
+    """
+    Makes a list of words from a given file. (format must be one word per line)
+    it also make the word list in lowercase.
+    :param file_path: full file path. assuming the file exists and in right
+            format
+    :return: list of words in lowercase
+    """
+    pass
