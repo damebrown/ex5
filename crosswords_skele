@@ -1,0 +1,24 @@
+import sys
+import parser
+
+ERROR_MSG_PARAM_NUM = "ERROR: invalid number of parameters. Please enter" \
+                      "word_file matrix_file output_file directions."
+ERROR_WORD_FILE_MISSING = "ERROR: Word file {0} does not exist."
+
+
+def main(matrix_file, word_file, direction_str):
+    pass
+
+
+if __name__ == "__main__":
+    # get sys.argv as input
+    # input validity checks:
+    # 1. amount of arguments
+    # 2. existence of files
+    # 3. validity of direction-string values "url" is valid
+    #    "qer" is not valid
+    # call main function (matrix file name, word file name, direction string)
+
+    # call writing func
+
+    pass
